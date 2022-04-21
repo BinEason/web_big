@@ -1,0 +1,178 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/login_bg2.jpg) no-repeat bottom;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.layui-main{
+    width: 1300px;
+    
+}
+/*  */
+.login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 310px;
+    background-color: rgba(36, 128, 103,0.7);
+    overflow: hidden;
+    
+}
+.login .title-login{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 14px;
+    text-align: center;
+    letter-spacing: 1.2em;
+    /* background-color: aqua; */
+    font-size: 24px;
+    font-family: '幼圆';
+    font-weight: bolder;
+    color: rgb(191, 193, 190);
+    background-color: rgb(36, 128, 103);
+
+}
+.login .reg-box{
+    display: none;
+}
+.layui-form-item{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.layui-form-item.zh{
+    position: relative;
+    margin-top: 20px;
+}
+#login_form .zh2{
+    padding-left: 30px;
+}
+.layui-form-item.mm{
+    position: relative;
+    margin-bottom: 15px;
+}
+.layui-form-item.mm1{
+    position: relative;
+    margin-bottom: 15px;
+}
+#login_form .mm2{
+    padding-left: 30px;
+
+}
+.layui-form-item.btn{
+    width: 100%;
+    position: relative;
+    
+}
+.layui-btn.layui-btn-radius{
+    width: 128px;
+    word-spacing: 2em;
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    transition: all 0.5s; 
+
+}
+.layui-btn.layui-btn-radius:hover{
+
+    box-shadow: 2px 1px 5px rgb(0, 0, 0);
+}
+
+#login_form #login_a{
+    position: absolute;
+    right: 48px;
+    bottom: 36px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5em;
+    font-family: '幼圆';
+    font-weight: bolder;
+    transition: all 0.5s;
+
+
+}
+#login_form #login_a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+#login_form .layui-icon{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+#login_form #reg_a{
+    position: absolute;
+    right: 48px;
+    bottom: 36px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5em;
+    font-family: '幼圆';
+    font-weight: bolder;
+    transition: all 0.5s;
+
+
+}
+#login_form #reg_a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+/* 注册 */
+
+#reg_form .zh2{
+    padding-left: 30px;
+}
+#reg_form .mm2{
+    padding-left: 30px;
+
+}
+
+
+#reg_form #login_a{
+    position: absolute;
+    right: 48px;
+    bottom: 36px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5em;
+    font-family: '幼圆';
+    font-weight: bolder;
+    transition: all 0.5s;
+
+
+}
+#reg_form #login_a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+#reg_form .layui-icon{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+#reg_form #reg_a{
+    position: absolute;
+    right: 48px;
+    bottom: 36px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5em;
+    font-family: '幼圆';
+    font-weight: bolder;
+    transition: all 0.5s;
+
+
+}
+#reg_form #reg_a:hover{
+    text-shadow: 0 0 10px #fff;
+}
